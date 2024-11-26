@@ -9,7 +9,7 @@ export default function Header() {
         <div>
           <Link href="/" className="font-serif text-2xl font-bold">
             <div className="flex gap-5">
-              <Avatar src={'/Surendra.png'}/>
+              <Avatar src={'./Surendra.png'}/>
             </div>
           </Link>
         </div>

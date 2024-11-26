@@ -12,13 +12,12 @@ export default function Intro() {
                 </p>
             </div>
             <div className='relative'>
-                <Image
+                <img
                     className='flex-1 rounded-lg grayscale'
-                    src={'/Surendra.png'}
-                    alt='Hamed Bahram'
+                    src={'./Surendra.png'}
+                    alt='Surendra Rawal'
                     width={175}
                     height={175}
-                    priority
                 />
             </div>
         </section>
