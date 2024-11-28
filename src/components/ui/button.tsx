@@ -10,6 +10,7 @@ const buttonVariants = cva(
             variant: {
                 solid: "dark:text-black text-white",
                 outline: "border",
+                subtle: "sub",
             },
             shade: {
                 primary: "",
@@ -97,6 +98,41 @@ const buttonVariants = cva(
                 variant: "outline",
                 shade: "accent",
                 className: "border-indigo-500 text-indigo-500 hover:bg-indigo-100",
+            },
+            {
+                variant: "subtle",
+                shade: "primary",
+                className: "text-primary dark:hover:bg-slate-700 hover:bg-slate-100",
+            },
+            {
+                variant: "subtle",
+                shade: "success",
+                className: "text-green-500 hover:bg-green-100",
+            },
+            {
+                variant: "subtle",
+                shade: "danger",
+                className: "text-red-500 hover:bg-red-100",
+            },
+            {
+                variant: "subtle",
+                shade: "gray",
+                className: "text-gray-500 hover:bg-gray-100",
+            },
+            {
+                variant: "subtle",
+                shade: "info",
+                className: "text-cyan-500 hover:bg-cyan-100",
+            },
+            {
+                variant: "subtle",
+                shade: "warning",
+                className: "text-yellow-500 hover:bg-yellow-100",
+            },
+            {
+                variant: "subtle",
+                shade: "accent",
+                className: "text-indigo-500 hover:bg-indigo-100",
             },
         ],
         defaultVariants: {
