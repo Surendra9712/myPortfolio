@@ -1,4 +1,5 @@
 import { JSX, SVGProps } from 'react'
+import {EnvelopeClosedIcon, EnvelopeOpenIcon} from "@radix-ui/react-icons";
 
 const navigation = [
   {
@@ -48,10 +49,9 @@ export default function Footer() {
             ))}
           </div>
           <div className='mt-8 md:order-1 md:mt-0'>
-            <p className='text-center text-xs leading-5 text-muted-foreground'>
-              &copy; {new Date().getFullYear()} Surendra Rawal. All rights
-              reserved.
-            </p>
+            <a href={'mailto:surendra.rawal.9712@gmail.com'} className='leading-5 flex gap-1 items-center text-muted-foreground'>
+              <EnvelopeClosedIcon/> <span>surendra.rawal.9712@gmail.com</span>
+            </a>
           </div>
         </div>
       </div>

@@ -70,11 +70,20 @@ export default {
         'accordion-up': {
           from: { height: 'var(--radix-accordion-content-height)' },
           to: { height: '0' }
+        },
+        border: {
+          to: { '--border-angle': '360deg' },
+        },
+        rotateInfinite:{
+          from: { transform: 'translateX(0)' },
+        to: { transform: 'translateX(calc(-250px * 7))'}
         }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out'
+        'accordion-up': 'accordion-up 0.2s ease-out',
+        border:'border 4s linear infinite',
+        rotateInfinite:"rotateInfinite 4s linear infinite",
       }
     }
   },
