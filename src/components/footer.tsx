@@ -1,5 +1,5 @@
 import { JSX, SVGProps } from 'react'
-import {EnvelopeClosedIcon, EnvelopeOpenIcon} from "@radix-ui/react-icons";
+import {EnvelopeClosedIcon} from "@radix-ui/react-icons";
 
 const navigation = [
   {
