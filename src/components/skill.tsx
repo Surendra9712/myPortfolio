@@ -43,7 +43,7 @@ export default function Skill() {
             </div>
             <div
                 className="keen-slider__slide border-y-4 border-cyan-600 flex items-center justify-center gap-2 py-4">
-                <span className="w-8">{React}</span> <span className="text-xl font-semibold">React</span>
+                <span className="w-10">{React}</span> <span className="text-xl font-semibold">React</span>
             </div>
             <div
                 className="keen-slider__slide border-y-4 border-black flex items-center justify-center gap-2 py-4">{NextJS}</div>
