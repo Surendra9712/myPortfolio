@@ -4,7 +4,6 @@ import {useForm} from "react-hook-form";
 import {toast} from "sonner";
 import FieldController from "@/src/components/common/FieldController";
 import {Button} from "@/src/components/ui/button";
-import sendEmail from "@/src/lib/mail-transport";
 import {useState} from "react";
 
 export interface IContactForm {
@@ -30,7 +29,6 @@ const ContactForm = () => {
     const onSend = async (e: IContactForm) => {
         try {
             setIsLoading(true);
-            await sendEmail(e);
             toast.success("Message sent successfully!", {
                 description: "Thanks for reaching out. I'll get back to you soon!",
             });
@@ -50,7 +48,7 @@ const ContactForm = () => {
                     placeholder="Enter full name"
                     label="Name"
                     rules={{
-                        required: "name is required",
+                        required: "Name is required",
                         maxLength: {value: 100, message: "Name should not be greater than 100 characters"}
                     }}
                 />
