@@ -42,7 +42,7 @@ export default function HeroSection() {
                 <div
                     className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-primary/30 flex-shrink-0 animate-fade-in-up">
                     <Image
-                        src="/surendra.png"
+                        src="/Surendra.png"
                         alt={personalInfo.name}
                         layout="fill"
                         objectFit="cover"

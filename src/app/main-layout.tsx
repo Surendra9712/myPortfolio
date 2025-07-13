@@ -11,7 +11,7 @@ interface MainLayoutProps {
 export default function MainLayout({children}: MainLayoutProps) {
     useTrackScroll();
     return (
-        <div className="min-h-screen bg-background text-foreground overflow-hidden">
+        <div className="min-h-screen bg-background text-foreground">
             <HeaderSection/>
             <main>{children}</main>
         </div>

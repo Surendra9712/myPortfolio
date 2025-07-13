@@ -9,7 +9,7 @@ interface ISectionWrapperProps {
 
 export default function SectionWrapper({id, title, children, className = ''}: ISectionWrapperProps) {
     return (
-        <section id={id} className={`py-10 ${className}`}>
+        <section id={id} className={`py-10 overflow-hidden ${className}`}>
             <div className="container mx-auto">
                 <AnimatedSection animation="fade-up">
                     <h2 className="text-4xl font-bold text-center text-primary mb-8">{title}</h2>
