@@ -51,7 +51,7 @@ export default function HeaderSection() {
             className="sticky top-0 z-50 w-full border-b border-border bg-background/90 backdrop-blur-md transition-colors duration-300 shadow-sm">
             <div className="container mx-auto flex items-center justify-between px-4 py-4">
                 <Avatar>
-                    <AvatarImage src={"/surendra.png"}/>
+                    <AvatarImage src={"/Surendra.png"}/>
                 </Avatar>
 
                 <div className="flex items-center space-x-6">
